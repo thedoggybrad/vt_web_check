@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <title>VirusTotal Website Security Check</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        h2, label, button {
+            font-size: 1.5em;
+        }
+        input {
+            font-size: 1em;
+            padding: 8px;
+            width: 80%;
+        }
+        button {
+            font-size: 1.5em;
+            padding: 10px;
+            margin: 10px;
+            background-color: #4CAF50; /* Green color */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        #notice {
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body><br>
+     <img src="fulllogo.png" width="282px" height="55px" style="display: block; margin-left: auto; margin-right: auto;">
+     <h2 style="text-align: center">VirusTotal Website Security Check</h2>
+
+    <form style="text-align: center;" id="vtForm" onsubmit="generateLink(); return false;">
+        <label for="domainInput">Enter a Full URL:</label><br>
+        <input type="text" id="domainInput" required><br>
+        <button type="submit">Check Security</button>
+    </form>
+        
+
+    <p id="result" style="display: none;">Generated Link: <span id="generatedLink"></span></p>
+    <p id="notice" style="display: none; text-align:center;">Invalid URL. Please enter a valid full URL.</p>
+
+    <script>
+        const generateLink = () => {
+            const input = document.getElementById('domainInput').value.trim();
+            const formattedInput = doubleEncodeURL(input);
+            const link = formattedInput ? `https://www.virustotal.com/gui/search/${formattedInput}` : null;
+
+            const linkElement = document.getElementById('generatedLink');
+            const noticeElement = document.getElementById('notice');
+
+            if (link) {
+                linkElement.innerHTML = `<a href="${link}" target="_blank">${link}</a>`;
+                noticeElement.style.display = 'none';  // Hide the notice
+                openInNewTab(link);
+            } else {
+                linkElement.innerText = 'Invalid URL';
+                noticeElement.style.display = 'block';  // Show the notice
+            }
+        };
+
+        const openInNewTab = (url) => {
+            const newTab = window.open(url, '_blank');
+            newTab.focus();
+        };
+
+        const doubleEncodeURL = (input) => {
+            try {
+                const url = new URL(input);
+                return encodeURIComponent(encodeURIComponent(url.href));
+            } catch (error) {
+                return null;
+            }
+        };
+    </script>
+<div style="text-align: center; margin-top: 30px; margin-left: 20px; margin-right: 20px;">
+<h3>What is this website and how it works?</h3>
+<p>This is the VirusTotal Website Security Check, it is created by <a href="https://github.com/thedoggybrad">TheDoggyBrad Software Lab</a>. It allows you to check the security of a website by typing in the full URL of the website. Then it automatically opens the VirusTotal security page that shows the result of various AV-provider's hypothesis on that website., similar to the behavior of a VirusTotal API. But... this site does not use an API key. Instead it is a reverse-engineering of the URL search function of the VirusTotal website. You may look at its code at <a href="https://github.com/thedoggybrad/vt_web_check">https://github.com/thedoggybrad/vt_web_check</a></p>
+<br>
+<h3>End-User License Agreement (EULA)</h3>
+<h4>MIT License </h4>
+<p>
+Copyright 2024-Present TheDoggyBrad Software Lab</p>
+<p>
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+</p><p>
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+</p><p>
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</p>
+</div>
+<footer style="text-align: center; margin-top: 50px;">©<a href="https://github.com/thedoggybrad">TheDoggyBrad Software Lab</a>. All Rights Reserved.</footer>
+</body>
+</html>
