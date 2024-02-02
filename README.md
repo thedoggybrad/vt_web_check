@@ -3,3 +3,8 @@ This is the VirusTotal Website Security Check, it is created by TheDoggyBrad Sof
 
 ## Experience it at
 https://thedoggybrad.github.io/vt_web_check/
+
+## Roadmap
+✓A website<br>
+•Chromium-family Extension<br>
+•Firefox-family Extension
