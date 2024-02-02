@@ -4,7 +4,7 @@ This is the VirusTotal Website Security Check, it is created by TheDoggyBrad Sof
 ## Website Version
 https://thedoggybrad.github.io/vt_web_check/
 
-## Firefox Add-on (Not yet approved)
+## Firefox Add-on
 https://addons.mozilla.org/en-US/firefox/addon/virustotal-web-security-check/
 
 ## Chromium Extension (Help needed)
@@ -17,5 +17,6 @@ But... you may install it the hard way atleast for now. Visit https://github.com
 
 ### Roadmap
 ✓A website<br>
-•Chromium-family Extension (I need help here)<br>
-•Firefox-family Extension (Waiting for Mozilla's approval)
+✓Firefox-family Extension<br>
+•Chromium-family Extension (I need help here)
+
