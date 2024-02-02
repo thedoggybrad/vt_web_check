@@ -11,7 +11,7 @@ https://addons.mozilla.org/en-US/firefox/addon/virustotal-web-security-check/
 Update: Microsoft is currently reviewing the extension.
 
 ## Opera Extension
-Coming soon!
+Update: Opera is currently reviewing the extension.
 
 ## Chromium Extension (Help needed)
 I am not a rich developer. I just develop using free solutions and the Chrome WebStore developer account is not free. I need help for someone to publish my extension on the Chrome Web Store on my behalf.
