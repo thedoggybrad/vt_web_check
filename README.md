@@ -12,7 +12,8 @@ I am not a rich developer. I just develop using free solutions and the Chrome We
 <br>
 Link for the extension (Unpacked): https://github.com/thedoggybrad/vt_web_check/tree/main/Chromium%20(Manifest%20v3)
 <br>
-Once you have published the extension, post the published link here https://github.com/thedoggybrad/vt_web_check/issues for me to update this section with the published link.
+Once you have published the extension, post the published link here https://github.com/thedoggybrad/vt_web_check/issues for me to update this section with the published link.<br><br>
+But... you may install it the hard way atleast for now. Visit https://github.com/thedoggybrad/vt_web_check/releases/tag/tempchrome1.0 to know more!
 
 ### Roadmap
 ✓A website<br>
