@@ -7,7 +7,12 @@ https://thedoggybrad.github.io/vt_web_check/
 ## Firefox Add-on (Not yet approved)
 https://addons.mozilla.org/en-US/firefox/addon/virustotal-web-security-check/
 
-## Chromium Extension (Not yet uploaded)
+## Chromium Extension (Help needed)
+I am not a rich developer. I just develop using free solutions and the Chrome WebStore developer account is not free. I need help for someone to publish my extension on the Chrome Web Store on my behalf.
+<br>
+Link for the extension (Unpacked): https://github.com/thedoggybrad/vt_web_check/tree/main/Chromium%20(Manifest%20v3)
+<br>
+Once you have published the extension, post the published link here https://github.com/thedoggybrad/vt_web_check/issues for me to update this section with the published link.
 
 ### Roadmap
 ✓A website<br>
