@@ -8,7 +8,7 @@ https://thedoggybrad.github.io/vt_web_check/
 https://addons.mozilla.org/en-US/firefox/addon/virustotal-web-security-check/
 
 ## Edge Extension
-Coming soon!
+Update: Microsoft is currently reviewing the extension.
 
 ## Opera Extension
 Coming soon!
