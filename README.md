@@ -24,5 +24,8 @@ But... you may install it the hard way atleast for now. Visit https://github.com
 ### Roadmap
 ✓A website<br>
 ✓Firefox-family Extension<br>
+•Microsoft Edge Extension<br>
+•Opera Extension<br>
 •Chromium-family Extension (I need help here)
+
 
