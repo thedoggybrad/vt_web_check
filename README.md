@@ -17,5 +17,5 @@ But... you may install it the hard way atleast for now. Visit https://github.com
 
 ### Roadmap
 ✓A website<br>
-•Chromium-family Extension<br>
-•Firefox-family Extension
+•Chromium-family Extension (I need help here)<br>
+•Firefox-family Extension (Waiting for Mozilla's approval)
