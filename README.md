@@ -4,13 +4,13 @@ This is the VirusTotal Website Security Check, it is created by TheDoggyBrad Sof
 ## Website Version
 https://thedoggybrad.github.io/vt_web_check/
 
-## Firefox Add-on
+## Firefox Add-on (Manifest v2)
 https://addons.mozilla.org/en-US/firefox/addon/virustotal-web-security-check/
 
-## Edge Extension
+## Edge Extension (Manifest v3)
 Update: Microsoft is currently reviewing the extension.
 
-## Opera Extension
+## Opera Extension (Manifest v3)
 Update: Opera is currently reviewing the extension.
 
 ## Chromium Extension (Help needed)
