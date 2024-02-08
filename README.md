@@ -8,7 +8,7 @@ https://thedoggybrad.github.io/vt_web_check/
 https://addons.mozilla.org/en-US/firefox/addon/virustotal-web-security-check/
 
 ## Edge Extension (Manifest v3)
-Update: Microsoft is currently reviewing the extension.
+https://microsoftedge.microsoft.com/addons/detail/virustotal-website-securi/dihabikhjoiihmmpepahideimobmcdei
 
 ## Opera Extension (Manifest v3)
 Update: Opera is currently reviewing the extension.
@@ -24,7 +24,7 @@ But... you may install it the hard way atleast for now. Visit https://github.com
 ### Roadmap
 ✓A website<br>
 ✓Firefox-family Extension<br>
-•Microsoft Edge Extension<br>
+✓Microsoft Edge Extension<br>
 •Opera Extension<br>
 •Chromium-family Extension (I need help here)
 
