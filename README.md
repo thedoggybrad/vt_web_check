@@ -14,7 +14,7 @@ https://microsoftedge.microsoft.com/addons/detail/virustotal-website-securi/diha
 Update: Opera is currently reviewing the extension.
 
 ## Chromium Extension (Manifest v3) [HELP REQUIRED]
-I am not a rich developer. I just develop using free solutions and the Chrome WebStore developer account is not free. I need help for someone to publish my extension on the Chrome Web Store on my behalf.
+I just develop using free solutions and the Chrome WebStore developer account is not free. I need help for someone to publish my extension on the Chrome Web Store on my behalf.
 <br>
 Link for the extension (Unpacked): https://github.com/thedoggybrad/vt_web_check/tree/main/Chromium%20(Manifest%20v3)
 <br>
