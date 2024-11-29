@@ -13,6 +13,7 @@ https://microsoftedge.microsoft.com/addons/detail/virustotal-website-securi/diha
 
 ## Opera Extension (Manifest v3)
 Update: Opera is currently reviewing the extension.
+November 2024 Update: Opera still does not anything to the extension.
 
 ## Chromium Extension (Manifest v3) [HELP REQUIRED]
 I just develop using free solutions and the Chrome WebStore developer account is not free. I need help for someone to publish my extension on the Chrome Web Store on my behalf.
