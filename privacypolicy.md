@@ -1,4 +1,4 @@
-Privacy Policy for VirusTotal Website Security Check
+# Privacy Policy for VirusTotal Website Security Check (Web browser extension)
 
 Effective Date: December 18, 2024
 
