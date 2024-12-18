@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to VirusTotal Website Security Check</title>
+  <title>Privacy Policy for VirusTotal Website Security Check</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -15,19 +15,78 @@
       text-align: center;
       font-size: 40px;
     }
+    h3 {
+      text-align: center;
+      font-size: 22px;
+      color: #555;
+    }
     p {
-      margin-top: 60px;
-      font-size: 20px;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      overflow: auto;
+      padding-top: 60px;
+    }
+    .modal-content {
+      background-color: #fff;
+      margin: 5% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 600px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .modal-header {
+      font-size: 24px;
+      font-weight: bold;
+      color: #4CAF50;
+      text-align: center;
+    }
+    .modal-body {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+    .accept-buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .accept-buttons button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 5px;
+      cursor: pointer;
+    }
+    .accept-buttons button.accept {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+    }
+    .accept-buttons button.decline {
+      background-color: #f44336;
+      color: white;
+      border: none;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to VirusTotal Website Security Check!</h1>
-  <h3 style="text-align: center;">(I know this is annoying, I was just forced by browser vendors to flash this message)</h3>
-  <p>This page just wants you to just be informed that when you click the add-on/extension icon on your web browser it will send the URL of your current tab to VirusTotal for it to check if the site is safe or not. Obviously, that's the sole function of this extension to forward the request to VirusTotal.<br>Sorry for popping this up, but this was just a requirement by browser vendors and it is not my full intention to have this thing.</p>
-  <p>For you to be sure that what I am stating here is all true, please visit the open-source code of this extension on <a href="https://github.com/thedoggybrad/vt_web_check">https://github.com/thedoggybrad/vt_web_check</a>
-  <br><br>
-  This popup was first required by Mozilla but if you are seeing this on a non-Mozilla browser I have also implemented this on other web browsers just in case the other browser vendors will require the same popup in the future.</p>
-  <p>-TheDoggyBrad Software Labs</p>
+
+  <h1>Welcome to VirusTotal Website Security Check (Web browser extension)</h1>
+  <h2 style="color:red; text-align:center;">By installing this extension, you need to accept our Privacy Policy.<br>If you do not accept our Privacy Policy uninstall this extension immediately.</h2>
+<h3>Summary of Privacy Policy:<br>You are viewing this screen because when you click the extension it will check for the website you are in when you click this extension on VirusTotal which will forward the request to VirusTotal's website. We only send the URL to VirusTotal and nothing more.<br><br>
+To visit the full form of the Privacy Policy, please visit <a href="https://github.com/thedoggybrad/vt_web_check/blob/main/privacypolicy.md">https://github.com/thedoggybrad/vt_web_check/blob/main/privacypolicy.md</a>
+<br><br>(I know this is annoying, but this is just a privacy measure. But this message will never appear again unless you reinstall this extension.)</h3>
+<p style="text-align:center;">-TheDoggyBrad Software Labs</p>
+
+
 </body>
 </html>

@@ -4,7 +4,14 @@ chrome.browserAction.onClicked.addListener(function (tab) {
   const link = formattedInput ? `https://www.virustotal.com/gui/search/${formattedInput}` : null;
 
   if (link) {
-    openInNewTab(link);
+    // Show confirmation dialog
+    const userConfirmed = window.confirm("By approving this action, the extension will check the current website you are in right now on VirusTotal which will require the extension to forward the request on VirusTotal's website. Do you want to proceeed?");
+    
+    if (userConfirmed) {
+      openInNewTab(link);
+    } else {
+      console.log("Action canceled by the user.");
+    }
   }
 });
 

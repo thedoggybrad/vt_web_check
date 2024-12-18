@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "VirusTotal Website Security Check",
-  "version": "1.1",
-  "description": "Automatically opens a VirusTotal website scan page on the URL you are visiting right now, in just a click of a button.",
+  "version": "1.11",
+  "description": "It opens a VirusTotal website scan page on the URL you are visiting right now, in just a click of a button, of course with your consent.",
   "icons": {
       "16": "favicon-16x16.png",
       "32": "favicon-32x32.png",
