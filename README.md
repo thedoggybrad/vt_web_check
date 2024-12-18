@@ -5,9 +5,8 @@ This is the VirusTotal Website Security Check, it is created by TheDoggyBrad Sof
 https://thedoggybrad.github.io/vt_web_check/
 
 ## Firefox Add-on (Manifest v2)
-Notice: Currently disabled by Mozilla for no apparent reason.<br>
-Update: It turns out that Mozilla had disabled the plugin due to a requirement they need and now I have complied to that and resubmitted the plugin.<br>
-https://addons.mozilla.org/en-US/firefox/addon/virustotal-web-security-check/
+Notice: Currently unavailable. Soon to be re-approved by Mozilla.<br>
+https://addons.mozilla.org/en-US/firefox/addon/vt_web_check/
 
 ## Edge Extension (Manifest v3)
 https://microsoftedge.microsoft.com/addons/detail/virustotal-website-securi/dihabikhjoiihmmpepahideimobmcdei
