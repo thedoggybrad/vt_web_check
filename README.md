@@ -16,12 +16,8 @@ Update: Opera is currently reviewing the extension.
 November 2024 Update: Opera still does not anything to the extension.
 
 ## Chromium Extension (Manifest v3) [HELP REQUIRED]
-I just develop using free solutions and the Chrome WebStore developer account is not free. I need help for someone to publish my extension on the Chrome Web Store on my behalf.
-<br>
-Link for the extension (Unpacked): https://github.com/thedoggybrad/vt_web_check/tree/main/Chromium%20(Manifest%20v3)
-<br>
-Once you have published the extension, post the published link here https://github.com/thedoggybrad/vt_web_check/issues for me to update this section with the published link.<br><br>
-But... you may install it the hard way atleast for now. Visit https://github.com/thedoggybrad/vt_web_check/releases/tag/tempchrome1.0 to know more!
+I have no plans now to upload this to Chrome WebStore in my opposition to Google's monopolistic actions.<br><br>
+Install instructions are coming soon.
 
 ### Roadmap
 ✓A website<br>
