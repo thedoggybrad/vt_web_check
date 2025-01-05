@@ -13,17 +13,17 @@ https://microsoftedge.microsoft.com/addons/detail/virustotal-website-securi/diha
 
 ## Opera Extension (Manifest v3)
 Update: Opera is currently reviewing the extension.
-November 2024 Update: Opera still does not anything to the extension.
+January 2025 Update: Opera still does not anything to the extension.
 
 ## Chromium Extension (Manifest v3) [HELP REQUIRED]
-I have no plans now to upload this to Chrome WebStore in my opposition to Google's monopolistic actions.<br><br>
-Install instructions are coming soon.
+I have no plans now to upload this to Chrome WebStore in my opposition to Google's monopolistic actions on the search engine industry.<br>Below is the instructions on how to install it manually without the Chrome WebStore.<br>
+https://github.com/thedoggybrad/vt_web_check/releases/tag/chromium_1.12
 
 ### Roadmap
 ✓A website<br>
-✓Firefox-family Extension<br>
 ✓Microsoft Edge Extension<br>
+✓Chromium-family Extension (Through Extension Developer Mode)<br>
+•Firefox-family Extension (Unpublished by Mozilla)<br>
 •Opera Extension<br>
-•Chromium-family Extension (I need help here)
 
 
