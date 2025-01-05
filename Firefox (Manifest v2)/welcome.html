@@ -24,38 +24,6 @@
       margin-top: 20px;
       font-size: 16px;
     }
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.4);
-      overflow: auto;
-      padding-top: 60px;
-    }
-    .modal-content {
-      background-color: #fff;
-      margin: 5% auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 80%;
-      max-width: 600px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    .modal-header {
-      font-size: 24px;
-      font-weight: bold;
-      color: #4CAF50;
-      text-align: center;
-    }
-    .modal-body {
-      font-size: 16px;
-      line-height: 1.6;
-      margin-top: 20px;
-    }
     .accept-buttons {
       text-align: center;
       margin-top: 30px;
@@ -81,12 +49,18 @@
 <body>
 
   <h1>Welcome to VirusTotal Website Security Check (Web browser extension)</h1>
-  <h2 style="color:red; text-align:center;">By installing this extension, you need to accept our Privacy Policy.<br>If you do not accept our Privacy Policy uninstall this extension immediately.</h2>
-<h3>Summary of Privacy Policy:<br>You are viewing this screen because when you click the extension it will check for the website you are in when you click this extension on VirusTotal which will forward the request to VirusTotal's website. We only send the URL to VirusTotal and nothing more.<br><br>
-To visit the full form of the Privacy Policy, please visit <a href="https://github.com/thedoggybrad/vt_web_check/blob/main/privacypolicy.md">https://github.com/thedoggybrad/vt_web_check/blob/main/privacypolicy.md</a>
-<br><br>(I know this is annoying, but this is just a privacy measure. But this message will never appear again unless you reinstall this extension.)</h3>
-<p style="text-align:center;">-TheDoggyBrad Software Labs</p>
+  <h2 style="color:red; text-align:center;">By installing this extension, you need to accept our Privacy Policy.<br>If you do not accept our Privacy Policy, uninstall this extension immediately.</h2>
+  <h3>Summary of Privacy Policy:<br>You are viewing this screen because when you click the extension, it will check the website you are on through VirusTotal. The extension sends only the URL to VirusTotal, and no other data is collected.<br><br>
+  To visit the full privacy policy, please visit <a href="https://github.com/thedoggybrad/vt_web_check/blob/main/privacypolicy.md">https://github.com/thedoggybrad/vt_web_check/blob/main/privacypolicy.md</a>
+  <br><br>(Clicking "Decline" will automatically uninstall this add-on.)</h3>
+  
+  <div class="accept-buttons">
+    <button class="accept" id="acceptBtn">Accept</button>
+    <button class="decline" id="declineBtn">Decline</button>
+  </div>
 
+  <!-- Reference the external JS file -->
+  <script src="welcome.js"></script>
 
 </body>
 </html>
