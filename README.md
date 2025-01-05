@@ -5,7 +5,7 @@ This is the VirusTotal Website Security Check, it is created by TheDoggyBrad Sof
 https://thedoggybrad.github.io/vt_web_check/
 
 ## Firefox Add-on (Manifest v2)
-Notice: Currently unavailable. Soon to be re-approved by Mozilla.<br>
+Notice: Again disapproved by Mozilla and I have no more plans (atleast for now) to resubmit the add-on again and fix the problem. I don't have time now to fix it, maybe in the future I will but not now. Super extreme "consent" requirements is the issue, just you know. <br>
 https://addons.mozilla.org/en-US/firefox/addon/vt_web_check/
 
 ## Edge Extension (Manifest v3)
