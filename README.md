@@ -15,7 +15,7 @@ https://microsoftedge.microsoft.com/addons/detail/virustotal-website-securi/diha
 Update: Opera is currently reviewing the extension.
 January 2025 Update: Opera still does not anything to the extension.
 
-## Chromium Extension (Manifest v3) [HELP REQUIRED]
+## Chromium Extension (Manifest v3 - Extension Developer Mode)
 I have no plans now to upload this to Chrome WebStore in my opposition to Google's monopolistic actions on the search engine industry.<br>Below is the instructions on how to install it manually without the Chrome WebStore.<br>
 https://github.com/thedoggybrad/vt_web_check/releases/tag/chromium_1.12
 
