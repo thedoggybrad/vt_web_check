@@ -5,7 +5,7 @@ This is the VirusTotal Website Security Check, it is created by TheDoggyBrad Sof
 https://thedoggybrad.github.io/vt_web_check/
 
 ## Firefox Add-on (Manifest v2)
-Update: Mozilla once again declined the extension. The reasons is that I do not have a privacy policy linked on addons.mozilla.org which I cannot figure out how to accomplish.<br>
+Update: I have resubmitted the add-on, just hoping for the best.<br>
 https://addons.mozilla.org/en-US/firefox/addon/vt_web_check/
 
 ## Edge Extension (Manifest v3)
