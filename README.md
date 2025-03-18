@@ -5,7 +5,6 @@ This is the VirusTotal Website Security Check, it is created by TheDoggyBrad Sof
 https://thedoggybrad.github.io/vt_web_check/
 
 ## Firefox Add-on (Manifest v2)
-Update: I have resubmitted the add-on, just hoping for the best.<br>
 https://addons.mozilla.org/en-US/firefox/addon/vt_web_check/
 
 ## Edge Extension (Manifest v3)
@@ -23,7 +22,7 @@ https://github.com/thedoggybrad/vt_web_check/releases/tag/chromium_1.12
 ✓A website<br>
 ✓Microsoft Edge Extension<br>
 ✓Chromium-family Extension (Through Extension Developer Mode)<br>
-•Firefox-family Extension (Unpublished by Mozilla)<br>
+✓Firefox-family Extension<br>
 •Opera Extension<br>
 
 
