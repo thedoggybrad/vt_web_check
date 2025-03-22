@@ -5,14 +5,17 @@ This is the VirusTotal Website Security Check, it is created by TheDoggyBrad Sof
 https://thedoggybrad.github.io/vt_web_check/
 
 ## Firefox Add-on (Manifest v2)
+Latest Version: 1.14 (As of Mar 22, 2025)<br>
 https://addons.mozilla.org/en-US/firefox/addon/vt_web_check/
 
 ## Edge Extension (Manifest v3)
+Latest Version: 1.12 (As of Mar 22, 2025)<br>
 https://microsoftedge.microsoft.com/addons/detail/virustotal-website-securi/dihabikhjoiihmmpepahideimobmcdei
 
 ## Opera Extension (Manifest v3)
-Update: Opera is currently reviewing the extension.
-January 2025 Update: Opera still does not anything to the extension.
+Update: Opera is currently reviewing the extension.<br>
+January 2025 Update: Opera still does not anything to the extension.<br>
+March 2025 Update: Still not approved nor moderated. I do not know if they are just lazy to moderate the extension submissions.
 
 ## Chromium-Family Extension (Manifest v3 - Extension Developer Mode)
 I have no plans now to upload this to Chrome WebStore in my opposition to Google's monopolistic actions on the search engine industry.<br>Below is the instructions on how to install it manually without the Chrome WebStore.<br>
