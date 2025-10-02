@@ -28,4 +28,9 @@ https://github.com/thedoggybrad/vt_web_check/releases/tag/chromium_1.12
 ✓Firefox-family Extension<br>
 •Opera Extension<br>
 
+## Donations
+TheDoggyBrad Software Labs is now accepting donations to help fund future projects.
+<br><br>
+Bitcoin Address:
+bc1qnf9alku0299wt5t46qcqu6leswww7rf2tx6kja
 
